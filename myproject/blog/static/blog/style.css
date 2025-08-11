@@ -1,0 +1,77 @@
+/* General Body Styles - Keep these for overall page look */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5; /* Slightly tighter line height */
+    color: #333;
+    background-color: #f8f8f8; /* Slightly lighter background */
+    margin: 0;
+    padding: 15px; /* Reduced overall padding */
+    
+}
+
+/* Container for the Blog Posts */
+.post-container {
+    max-width: 500px; /* Reduced max width */
+    margin: 15px auto; /* Reduced margin, center the container */
+    background-color: #fff;
+    padding: 25px; /* Reduced padding */
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.08); /* Softer shadow */
+    border-radius: 6px; /* Slightly less rounded corners */
+    margin-bottom: 10px;
+}
+
+/* Individual Post Styles */
+.post-item {
+    margin-bottom: 15px; /* Reduced space between posts */
+    border-bottom: 1px solid #eee;
+    padding-bottom: 25px; /* Reduced padding above the separator */
+}
+
+.post-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Post Title */
+.post-title {
+    font-size: 1.8em; /* Smaller title */
+    color: #2c3e50; /* A darker, professional blue/grey */
+    margin-top: 0;
+    margin-bottom: 10px; /* Reduced margin below title */
+    font-weight: 700;
+}
+
+/* Post Meta Information (Author, Date) */
+.post-meta {
+    font-size: 0.85em; /* Smaller meta info font */
+    color: #666; /* Softer color */
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+.post-meta .author {
+    font-weight: bold;
+    color: #444;
+}
+
+.post-meta .date {
+    font-style: italic;
+}
+
+/* Post Content */
+.post-content {
+    font-size: 1em; /* Standard content font size */
+    color: #333;
+    line-height: 1.6; /* Slightly tighter line height */
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+/* Basic Link Styling (if you have links in your content) */
+.post-content a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.post-content a:hover {
+    text-decoration: underline;
+}
